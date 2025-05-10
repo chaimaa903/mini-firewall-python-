@@ -1,0 +1,14 @@
+{
+  "allow": [
+    {
+      "protocol": "tcp",
+      "comment": "Autoriser tout le trafic TCP"
+    }
+  ],
+  "block": [
+    {
+      "protocol": "icmp",
+      "comment": "Bloquer les pings ICMP"
+    }
+  ]
+}
